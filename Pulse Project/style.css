@@ -87,7 +87,62 @@ ol, ul{
 transform: translate3d(5px, -5px, 0);
 }
 
+
+
+
+
+
+
 .button{
     position: relative;
     display: inline-block;
+}
+
+*, :after, :before{
+    border: 0 solid #d6dae5;
+    box-sizing: inherit;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
+html{
+    font-family: sans-serif;
+    color: #464951;
+    background-color: #fcfcfc;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.bg-green-100{
+    background-color: #eafaf1;
+}
+
+
+
+
+.lg\:pb-10{
+    padding-bottom: 2.5rem;
+}
+
+
+
+.lg\:mb-10{
+
+
+margin-bottom: 2.5rem;
+}
+
+.lg\:justify-centre{
+    justify-content: center;
+}
+.lg\:flex{
+    display: flex;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
 }
