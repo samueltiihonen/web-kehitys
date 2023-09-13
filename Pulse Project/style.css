@@ -87,10 +87,36 @@ ol, ul{
 transform: translate3d(5px, -5px, 0);
 }
 
+.px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py-1 {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.button-outline {
+    color: #00ad6a;
+    border-color: #00ad6a;
+    background-color: transparent;
+}
 
 
+.button {
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    border-width: 2px;
+    text-align: center;
+    cursor: pointer;
+}
 
-
+*, :after, :before {
+    border: 0 solid #d6dae5;
+}
 
 
 .button{
@@ -98,51 +124,222 @@ transform: translate3d(5px, -5px, 0);
     display: inline-block;
 }
 
-*, :after, :before{
+
+
+
+
+
+
+
+
+
+
+
+main {
+    display: block;
+}
+
+*, :after, :before {
     border: 0 solid #d6dae5;
+}
+
+
+
+
+*, :after, :before {
     box-sizing: inherit;
 }
 
+
+
+
+
 body{
     -webkit-font-smoothing: antialiased;
+    display:block
 }
 
+
 html{
-    font-family: sans-serif;
-    color: #464951;
-    background-color: #fcfcfc;
     line-height: 1.5;
     box-sizing: border-box;
+    webkit-text-size-adjust:100%;
 }
+
+
+
+
+
+
 .bg-green-100{
     background-color: #eafaf1;
 }
 
 
+min-width
+    text-align center
 
 
-.lg\:pb-10{
-    padding-bottom: 2.5rem;
+
+min-width
+    max-width
+   
+
+.w-full {
+width: 100%;
 }
 
 
-
-.lg\:mb-10{
-
-
-margin-bottom: 2.5rem;
+*, :after, :before {
+    border: 0 solid #d6dae5;
 }
 
-.lg\:justify-centre{
-    justify-content: center;
-}
-.lg\:flex{
-    display: flex;
+*, :after, :before {
+    box-sizing: inherit;
 }
 
-.container{
+.h1, .h2 {
+    letter-spacing: -2px;
+}
+
+.h1 {
+    font-size: 60px;
+    font-size: 3.75rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 700;
+    color: #080c16;
+}
+
+dl, figure, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+*, :after, :before {
+    border: 0 solid #d6dae5;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.lg\:text-center {
+    text-align: center;
+}
+
+.container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 0 1.5rem;
 }
+
+*, :after, :before {
+    border: 0 solid #d6dae5;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+
+*, :after, :before {
+    border: 0 solid #d6dae5;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    border: 0 solid #d6dae5;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+
+.lg\:flex {
+    display: flex;
+}
+
+.-mx-4 {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.items-center {
+    align-items: center;
+}
+
+*, :after, :before {
+    border: 0 solid #d6dae5;
+}
+
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+*, :after, :before {
+    border: 0 solid #d6dae5;
+
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+
+min-width: 1024px;
+.lg\:w-1\/3 {
+    width: 33.33333%;
+}
+
+min-width: 1024px
+.lg\:p-8 {
+    padding: 2rem;
+}
+
+(min-width: 1024px)
+.lg\:flex {
+    
+    display: flex;
+}
+
+*, :after, :before {
+    border: 0 solid #d6dae5;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+*, :after, :before {
+    border: 0 solid #d6dae5;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    border: 0 solid #d6dae5;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+
+
+
+
+
