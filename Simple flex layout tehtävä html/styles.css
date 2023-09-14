@@ -4,67 +4,105 @@
 
 header{
     display: flex;
-    justify-content: space-between; /* Laittaa hederin tekstiin väliä*/
+    justify-content: center; /* laittaa tyhjän tilan lapsien väliin*/
     align-items: center;
-    background-color: rgb(37, 232, 167);
+    background-color: rgb(233, 233, 139);
     padding: 20px;
+    height: 11rem;
+    
+
 }
 
-body{
+.header-center{
+    width: 100%;
+    max-width: 1330px;
+    display: flex;
+    justify-content: space-between; /* laittaa tyhjän tilan lapsien väliin*/
+    align-items: center;
+}
+
+
+body {
     margin: 0;
 }
 
-
-
-ul{
+ul {
     display: flex;
     list-style: none;
 }
 
-li{
+li {
     padding-right: 10px;
 }
 
-a{
-    text-decoration: none;
+a {
+    text-decoration: none;    
+    font-size: 26px;
 }
 
-
-main{
+.box {
     display: flex;
-    flex-wrap: wrap;
-    padding: 25px;
-    justify-items: center;
-    align-items: center;
-}
-
-.box{
-    flex-basis: calc(30% - 5px);
-    margin: 5%;
-
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.box-item{
-    flex-basis: calc(30% - 5px);
+.box p {
+    line-height: 300%;
+    font-size: 26px; /* Staattinen fontti koko suurella näytöllä*/
+    padding: 8px;
+}
+
+.box-item {
+    max-width: 650px;
+    max-height: 550px;
+    height: 550px; /* Staattinen korkeus laatikoille */
+    flex: 1; /*Tämän tekeen kaikista sivun ruuduista kuva ja teksti saman kokoisia*/
+    background-color: rgb(168, 162, 173);
+    margin: 40 15 40 15; /*Tämä tekee sivun laatikoille väliä(että laatikot ovat irti toisistaan */
+    border-radius: 20px; /*Tämä pyöristää laatikoiden kulmat pyöreäksi*/
+    text-align: center;
+    display: flex; /* Keskitetään <p> tämän divin sisällä*/
+    align-items: center;
+}
+
+
+.box-item img{
+    /* display: none; kokeillaan toimiiko selector(kuva laatikoille) */
+    width: 100%;
+    height: 100%;
+    /* width: 650px height 550px */
+    border-radius: inherit;
+    
+    
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    height: 24rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
 
-
+.image-80 {
+    width: 80px;
+    height: 80px;
 }
 
 
 
-.box img{
-    max-width: 100%;
+footer p, footer a {
+    color: white;
 }
 
-p{
-    line-height: calc(300%)
+.p-left40 {
+    padding-left: 40px;
 }
 
+
+
+footer nav ul {
+    margin: 0px;
+}
